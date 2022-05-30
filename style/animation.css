@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Animaties */
+.animated {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    
+
+}
+
+.fade-up {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+}
+
+.fade-down {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+}
+
+.fade-left {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+}
+
+.fade-right {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+}
+
+.delay-first {
+    transition-delay: 0.7s;
+}
+.delay-second {
+  transition-delay: 1s;
+}
+.delay-third {
+  transition-delay: 1.5s;
+}
+.delay {
+    transition-delay: 0.3s;
+}
+
+.visible {
+    opacity: 1;
+    transform: translate(0px);
+    -webkit-transform: translate(0px);
+}

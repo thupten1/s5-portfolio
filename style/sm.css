@@ -1,0 +1,135 @@
+.dropbtn {
+    background-color: #000000;
+    color: #FF7600;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-left: 25%;
+    margin-right: 100%;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin-left: 25%;
+    margin-right: 100%;
+    font-size: 16px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding:16 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #FF7600}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #1f1f1f;
+  }
+
+  .placeright{
+      float: right;
+  }
+
+.container {
+    display: grid; 
+    grid-template-columns: 0.5fr 2fr 4fr 0.5fr; 
+    grid-template-rows: 1fr 4fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . . ."
+      ". . . ."
+      ". . . ."; 
+    height: 100%;
+    width: auto;
+}
+.blockgrid{
+  display: grid; 
+  grid-template-columns: 0.5fr 2fr 2fr 0.5fr; 
+  grid-template-rows: 0.5fr 3.5fr 3.5fr 0.5fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . ."; 
+    height: 100%;
+    width: 100%;
+}
+.box{
+    font-size: 16px;
+    color: black;
+}
+.box1header{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: #FF7600;
+    font-style: italic;
+}
+.backgroundemp{
+    height: 100%;
+    width: 100%;
+    /* background-color: #beb48a; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bol{
+  width:375px;
+  height: 375px;
+  border-radius: 400px;
+  margin-top: -10px;
+  z-index: 1;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+}
+
+.kleinbol{ 
+  /* background-color: #FF7600; */
+  background-image: url(../assets/clickhere.png);
+  background-size: cover;
+  width:150px;
+  height: 150px;
+  border-radius: 200px;
+  margin-top: 100px;
+  margin-left:80px;
+  z-index: 1;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+}
+.personaFeiko{
+  transition: transform .7s ease-in-out;
+}
+.personaFeiko:hover{
+  transform: rotate(40deg);
+}
+.IOSemp{
+  transition: transform 1s ease-in-out;
+}
+.IOSemp:hover{
+  transform: rotate(40deg);
+}
+.tekstIOS{
+  margin: 20%;
+  width: 60%;
+}
+.logopaperid{
+  margin: 20%;
+  width:70%;
+  height: 70%;
+}

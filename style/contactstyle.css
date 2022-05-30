@@ -1,0 +1,22 @@
+.h1contact{
+    position: fixed;
+    font-size: 60px;
+    font-style: italic;
+    color: #FF7600;
+    left: 1200px;
+    top:300px;
+  }
+  .hlcontact {
+    position: fixed;
+    left: 1100px;
+    top: 340px;
+    border-top: 2px solid #FF7600;
+    width: 80px;
+  }
+  .hlcontact2 {
+    position: fixed;
+    left: 1500px;
+    top: 340px;
+    border-top: 2px solid #FF7600;
+    width: 80px;
+  }
