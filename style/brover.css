@@ -159,10 +159,37 @@ body, html {
     text-decoration: none;
     width: 100%;
   }
-  
+  .col-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+  .col-contaier div{
+    flex: 1 1 30%; /*grow | shrink | basis */
+    height: 100px;
+  }
+  .col-3{
+    flex: 1 1 30%;
+  }
+
   i {
     float: right;
     margin-right: 8px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
   }
   .projecth1{
           margin-left: 50px;
