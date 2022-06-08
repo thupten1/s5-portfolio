@@ -91,6 +91,15 @@ body, html {
 .image-container{
   width: 70%;  
 }
+.image-s-container{
+  width: 50%;  
+  display: flex;
+  margin: 10;
+}
+.image-s-container > div{
+ width: 10%;
+ margin: 10;
+}
 
 .singleimage{
   display: flex;
