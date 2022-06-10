@@ -46,7 +46,6 @@
                       <a href="#learningoutcome">Learning Outcome</a>
                       <a href="#approach">Approach, implementation and results</a>
                     <a href="#reflection">Reflection</a>
-                    <a href="#bib">Bibliography</a>
                     <a href="#docs">Documents</a>
                     </div>
                     <button class="drop-button">Discover
@@ -76,7 +75,7 @@
                     </button>
                     <div id="dropdown-container">
                       <a href="#goaldevelop">Goal</a>
-                      <a href="#link2">Design</a>
+                      <a href="#design">Design</a>
                       <a href="#link3">User Testing</a>
                       <a href="#link3">Programming</a>
                       <a href="#link3">Side project</a>
@@ -184,10 +183,10 @@
                                 First we wanted to know about the current system, therefore we held an flied research. 
                             </p>
                             <p class="animated delay-first fade-right maintext">
-                                We wanted to gather answer on “What are the wishes and need of our target group, so that we know which parts of the process should be simplified?” First, we needed to know more about our target audience. Therefore, we did flied research and held an <a href="">interview</a> with the people uses the app. This gave us a better view about our target audience.
+                                We wanted to gather answer on “What are the wishes and need of our target group, so that we know which parts of the process should be simplified?” First, we needed to know more about our target audience. Therefore, we did flied research and held an <a href="./assets/pdf/Interview_current_system.pdf" target="blank">interview</a> with the people uses the app. This gave us a better view about our target audience.
                             </p>
                             <p class="animated delay-first fade-right maintext">
-                                Next, we did flied research, and did a <a href="">Participant observation</a> with the users. We did this as we wanted to know their wishes and needs, after all we found out there were a lot of bugs and improvement points on the current system which made the app feel like a BETA version.
+                                Next, we did flied research, and did a Participant observation / <a href="./assets/pdf/Interview_wishes_and_needs.pdf" target="blank">interview</a> with the users. We did this as we wanted to know their wishes and needs, after all we found out there were a lot of bugs and improvement points on the current system which made the app feel like a BETA version.
                             </p>
                             <p class="animated delay-first fade-right maintext">
                                 We made a <a href="">persona</a> as we wanted to create our ideal target audience. We did this because we can combine important things from multiple users and implement this to one user.
@@ -199,14 +198,16 @@
                             </p>
                             <h2 class="subheader">Define</h2>
                             <p class="animated delay-first fade-right maintext">
-                                After the research phase, we moved on to the define phase. In this phase we analysed our findings from the research phase and defined our problem which was “There is a lot of small problems, all these small problems combined created a bad user experience”. We came up with solutions to make a new native app in Flutter. We chose for a native app because it has better hardware support then a PWA, the reason we wanted to program with Flutter is because then the app is compatible with IOS and Android. Furthermore, we wanted to create an app with excellent user experience, to achieve this we did literature research on design principles (<a href="">Design document</a>). We compared different design principles and chose the one that fits the best for our project. Next, we defined what tools and methods we are going to use, to succeed this project.                         
+                                After the research phase, we moved on to the define phase. In this phase we analysed our findings from the research phase and defined our problem which was “There is a lot of small problems, all these small problems combined created a bad user experience”. We came up with solutions to make a new native app in Flutter. We chose for a native app because it has better hardware support then a PWA, the reason we wanted to program with Flutter is because then the app is compatible with IOS and Android. Furthermore, we wanted to create an app with excellent user experience, to achieve this we did literature research on design principles (<a href="./assets/pdf/design_document.pdf" target="blank">Design document</a>). We compared different design principles and chose the one that fits the best for our project. Next, we defined what tools and methods we are going to use, to succeed this project.                         
                             </p>
                             <h2 class="subheader">Design</h2>
                             <p class="animated delay-first fade-right maintext">
-                                After define phase we started with the design phase, we worked on this for 2 weeks. Therefore, we started to gather some inspirations, we looked at buttons, steppers and cool designs that would fit out project.                         
+                                After define phase we started with the design phase, we worked on this for 2 weeks. Therefore, we started to gather some inspirations, we looked at buttons, steppers and cool designs that would fit out project. We decided to ask the user which button and stepper they think its user friendly. Therefore, we did field research and used a survey <a href="./assets/pdf/design_document.pdf" target="blank">(design document)</a> to get answers. As a result, we 50% from the 10 users choose for stepper 1 and for the button 70% choose for the Neomorphism button. 
                             </p>
+                        </div>
+                        <div class="inner">
                             <p class="animated delay-first fade-right maintext">
-                                Frist, we started to create a wireframe, we chose for a simple wireframe because we wanted to create a minimum viable product. This was done very fast; with this we got a view of how the app could look like. 
+                                Next, we started to create a wireframe, we chose for a simple wireframe because we wanted to create a minimum viable product. This was done very fast; with this we got a view of how the app could look like. 
                             </p>
                             <p class="animated delay-first fade-right maintext">
                                 After this, we create a design which was more detailed version 1. This version had few changes in the home page and the menu bar. Also, we create a visual hierarchy that matches the user’s needs with the use of our color, contrast and highlighted the important things.
@@ -221,7 +222,7 @@
                                 Version 2.1 was created after we did some user test, where we found our users didn’t knew the scrollable part. Furthermore, orange was not the same as the Brover’s orange. We managed to change the color. 
                             </p>
                             <p class="animated delay-first fade-right maintext">
-                                In the <a href="">Design document</a> we documented this phase in more detail with images. We also have a substantiation of how we have used the design principles.
+                                In the <a href="./assets/pdf/design_document.pdf" target="blank">Design document</a> we documented this phase in more detail with images. We also have a substantiation of how we have used the design principles, we used the design principle to improve the user friendliness.
                             </p>
                             <h2 class="subheader">Realisation</h2>
                             <p class="animated delay-first fade-right maintext">
@@ -234,10 +235,17 @@
                                 Next, we needed to make a stepper, our internship supervisor told us to make a custom stepper. This was because the material stepper was not nice to work with and after all making a custom stepper would help a lot with gaining knowledge about programming. We had to learn about state management. I spent a very long time in this part of programming as I found it quite difficult.
                             </p>
                             <p class="animated delay-first fade-right maintext">
-                                After the stepper was successful build. We wanted the VIN to be visible on each step. We couldn’t do this because each step made a new state. To solve this, we did some research on the web and found out about MVVM (model view, view model). With this we managed to send information from view to view-model and managed to show the VIN on each step. 
+                                This stepper is the core navigator throughout the app, each step is loaded by changing steps. After the stepper was successful build. We started with developing step 1 entering VIN (Vehicle identification number), this went easy, we reused the scanner widget from the old version. Next, we made step 2, here we wanted the VIN to be visible on each step. We couldn’t do this because each step made a new route. To solve this, we did some research on the web and found out about MVVM (model view, view model). With this we managed to send information from view to view-model and able to show the VIN on each step.
                             </p>
                             <p class="animated delay-first fade-right maintext">
-                                After the stepper was successful build. We wanted the VIN to be visible on each step. We couldn’t do this because each step made a new state. To solve this, we did some research on the web and found out about MVVM (model view, view model). With this we managed to send information from view to view-model and managed to show the VIN on each step. 
+                                Foreach steps made different components, as result we could reuse a component. Step 4 was a bit difficult and was a struggle as we wanted to take pictures and show the images in a list view. Therefore, we had to work with list of XFiles. 
+                            </p>
+                            <h2 class="subheader">Unfinished tasks</h2>
+                            <p class="animated delay-first fade-right maintext">
+                                We did not manage to finish the app, there are still few important things to do to improve the user experience. In step 3 the control step, the buttons need to be default on “no” and there need to be a scroll bar so users know they can scroll on this part. Furthermore, we wanted to filter the VIN and automatic fill the car brand and type, this prevents mistakes by the user and speeds up the process. 
+                            </p>
+                            <p class="animated delay-first fade-right maintext">
+                                The vehicle check part still needs to be developed but this won’t take long as we can reuse the code on intake. The check part is built in 2 steps scan or type the VIN part and image part, where user can take picture of the vehicle.
                             </p>
                             <div class="inner animated delay-first fade-right">
                                 <h1 id="reflection" class="mainheader">Reflection</h1>
@@ -249,25 +257,19 @@
                                 </p>
                             </div>
                             <div class="inner animated delay-first fade-right">
-                                <h1 id="bib" class="mainheader">Bibliograpgy</h1>
-                                <p class="animated delay-first fade-right maintext">
-                                    Tekst
-                                </p>
-                            </div>
-                            <div class="inner animated delay-first fade-right">
                                 <h1 id="docs" class="mainheader">Documents</h1>
                                 <div class="col-container">
                                     <div class="col-3 maintext animated delay-second fade-right">
                                         <h2 class="subheader">Project plan</h2>
-                                        <a href="./assets/pdf/Project_plan.pdf" download class="document_button animated delay-second fade-right">Project plan</a>
+                                        <a href="./assets/pdf/Project_plan.pdf" target="blank" class="document_button animated delay-second fade-right">Project plan</a>
                                     </div>
                                     <div class="col-3 maintext animated delay-second fade-right">
-                                        <h2 class="subheader">Interview</h2>
-                                        <a href="something" class="document_button animated delay-second fade-right">Interview</a>
+                                        <h2 class="subheader">Interview current system</h2>
+                                        <a href="./assets/pdf/Interview_current_system.pdf" target="blank" class="document_button animated delay-second fade-right">Interview current system</a>
                                     </div>
                                     <div class="col-3 maintext animated delay-second fade-right">
-                                        <h2 class="subheader">Participant observation</h2>
-                                        <a href="something" class="document_button animated delay-second fade-right">Participant observation</a>
+                                        <h2 class="subheader">Interview wishes and needs</h2>
+                                        <a href="./assets/pdf/Interview_wishes_and_needs.pdf" target="blank" class="document_button animated delay-second fade-right">Interviews wishes and needs</a>
                                     </div>
                                     <div class="col-3 maintext animated delay-second fade-right">
                                         <h2 class="subheader">Persona</h2>
@@ -283,7 +285,7 @@
                                     </div>
                                     <div class="col-3 maintext animated delay-second fade-right">
                                         <h2 class="subheader">Design document</h2>
-                                        <a href="something" class="document_button animated delay-second fade-right">Design</a>
+                                        <a href="./assets/pdf/design_document.pdf" target="blank" class="document_button animated delay-second fade-right">Design</a>
                                     </div>
                                     <div class="col-3 maintext animated delay-second fade-right">
                                         <h2 class="subheader">Define document</h2>
@@ -331,7 +333,7 @@
                                 </p>
                                 <p class="animated delay-first fade-right maintext">Read the document to get the interview results
                                 </p>
-                                <a href="something" class="document_button animated delay-second fade-right">View interview current system document</a>
+                                <a href="./assets/pdf/Interview_current_system.pdf" target="blank" class="document_button animated delay-second fade-right">View interview current system document</a>
                             </div>
                         </div>
                         <div class="inner">
@@ -355,7 +357,7 @@
                                         There are many small problem which gives the app a bad user-exprience. There are few things they would like to see diffrent. 
                                     </br>Frist, the app needs to be in dutch. There are people in the factory who can not speak english. Second, the camera needs to have a good resolution because the last time the camera's scale was really bad and it was very hard to take good picture. Third, all double names should be deleted. Furthermore, our users would like too see a comment section after taking picture or orther steps;
                                     </p>
-                                    <a href="something" class="document_button animated delay-second fade-right">View interview user wants and needs document</a>
+                                    <a href="./assets/pdf/Interview_wishes_and_needs.pdf" target="blank" class="document_button animated delay-second fade-right">View interview user wants and needs document</a>
                             </div>
                         </div>
                         <div class="inner">
@@ -505,7 +507,7 @@
                                 <p class="animated delay-first fade-right maintext">
                                     Read the document to see how we implemented Design principle in our design.
                                 </p>
-                                <a href="something" class="document_button animated delay-second fade-right">View Design document</a>
+                                <a href="something" class="document_button animated delay-second fade-right">Click to view Design document</a>
                             </div>
                         </div>
                     </div>
@@ -515,11 +517,97 @@
                             <h1 id="develop" class="maintitle">Develop</h1>
                             <h1 id="goaldevelop" class="mainheader">Goal</h1>
                             <p class="animated delay-first fade-right maintext">
-                                In this phase we defined our problem and thought about a solution, futhermore, we noted what tools and methods we are using.
+                                Our goal is to build a user friendly front-end in flutter, where users can do the intake and control check of a car entering or leaving. This app has futures such as scanning QR code or barcode, takeing pictures and more.
                             </p>
                         </div>
                         <div class="inner">
-                            <h1 id="tools" class="mainheader">Tools</h1>
+                            <h1 id="design" class="mainheader">Design</h1>
+                            <a href="./assets/pdf/design_document.pdf" target="blank" class="document_button animated delay-second fade-right"> Click to view Design document</a>
+                            <h2 class="subheader">Inspiration</h2>
+                            <p class="animated delay-first fade-right maintext">
+                                After gathering our research insights, we started to look for inspirations. Frist, we thought about what elements do we need in our app? For example, we are going to use a stepper in our app, so I searched some steppers on the internet to get inspired. We did this also for the other elements like buttons eventually we found Neumorphism buttons, this looked very modern so we thought maybe we can use this in our app.
+                            </p>
+                            <h2 class="subheader">Usertest UI elements</h2>
+                            <p class="animated delay-first fade-right maintext">
+                                We did field research where we asked people which design element they would rather use. We did this through a survey. We asked 10 users few steppers and buttons and gave them the options to choose
+                            </p>
+                            <p class="animated delay-first fade-right maintext">
+                                As a result, from the 10 people 50% choose for option 1. 30% choose for option 6 and 20% choose for option 4. Which means that option 1 is the most patent stepper. Furthermore, for the button it was obvious, 70% choose option 1 which was the neomorphism button. 
+                                Based on this result we are going to use neomorphism button and stepper option 1 
+                            </p>
+                        </div>
+                        <div class="inner">
+                            <div class="image-container">
+                                <img class="animated delay-second fade-right" src="./assets/brover/usertest-ui.png" alt="">
+                                <img class="animated delay-second fade-right" src="./assets/brover/usertest-btn.png" alt="">
+                            </div>
+                            <div class="image-container">
+                                <img class="animated delay-second fade-right" src="./assets/brover/usertest-button.png" alt="">
+                                <img class="animated delay-second fade-right" src="./assets/brover/usertest-stepper.png" alt="">
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <h2 class="subheader">Wireframes</h2>
+                            <p class="animated delay-first fade-right maintext">
+                                We made a quick wireframe, we kept it very simple as we wanted to make a minimal viable product. The reason for this is to get a feel of how the app is going to look. You see a Home page with menu on the bottom, also when you click on “Intake” it will bring you to a new page. This page has a stepper on the top, with few options.
+                            </p>
+                            <p class="animated delay-first fade-right maintext">
+                                As in the design principles, we gave them a few choices like would you like type or scan the VIN? Furthermore, we kept the group related object near each other, we created for each step a page, because otherwise it would be too busy.                             
+                            </p>
+                        </div>
+                        <div class="inner">
+                            <div class="image-container">
+                                <img class="animated delay-second fade-right" src="./assets/brover/wireframe.png" alt="">
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <h2 class="subheader">Version 1</h2>
+                            <p class="animated delay-first fade-right maintext">
+                                After the wireframe we created the better design, more detailed. We changed the design of our home page and made changes in the menu, we placed this on the bottom still but made it a button and not a menu bar. Also, we create a visual hierarchy that matches the user’s needs with the use of our color, contrast and kept the important things good to reach. 
+                            </p>
+                        </div>
+                        <div class="inner">
+                            <div class="image-container">
+                                <img class="animated delay-second fade-right" src="./assets/brover/version1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <h2 class="subheader">Version 2</h2>
+                            <p class="animated delay-first fade-right maintext">
+                                After talking to our target audience and the product owner we got some few feedback on the design, to meet their wishes, we created a new design. This is high quality prototype, we implemented the morphism button design, and choses for a rounded stepper. 
+                            </p>
+                        </div>
+                        <div class="inner">
+                            <div class="image-container">
+                                <img class="animated delay-second fade-right" src="./assets/brover/version2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <h2 class="subheader">Version 2.1</h2>
+                            <p class="animated delay-first fade-right maintext">
+                                There were few things we wanted to change. We kept away the camera button page, because this step was unnecessary. Furthermore, the colour was not exact same as Brover’s orange, and we added a scrollbar so that users know which part is scrollable. We also used the design principle while designing, open the design document to read how we implemented the design principle in this design. 
+                            </p>
+                            <a href="https://xd.adobe.com/view/4556eaf8-3951-46e1-af32-ce7cc50b7fd4-1005/?fullscreen&hints=off" target="blank" class="document_button animated delay-second fade-right">Prototype design</a>
+                        </div>
+                        <div class="inner">
+                            <div class="image-container">
+                                <img class="animated delay-second fade-right" src="./assets/brover/version2-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <h1 id="tools" class="mainheader">User testing</h1>
+                            <p class="animated delay-first fade-right maintext">
+                                After doing the research, we found out that there wasn't a big problem but there are a lot of little things that the user doesn't like, for example that everything is written in English and when a user wants to take a picture the resolution isn't correct, there are couple more points for improvement, see <a target="_blank" href="Interview_wishes_and_needs.pdf">Interview_wishes_and_needs.pdf</a>. The consequence of this is that the system does not work properly. <Strong>Due to these issues the work process gets halted, which gives users a bad experience.</Strong>
+                            </p>
+                        </div>
+                        <div class="inner">
+                            <h1 id="tools" class="mainheader">Programming</h1>
+                            <p class="animated delay-first fade-right maintext">
+                                After doing the research, we found out that there wasn't a big problem but there are a lot of little things that the user doesn't like, for example that everything is written in English and when a user wants to take a picture the resolution isn't correct, there are couple more points for improvement, see <a target="_blank" href="Interview_wishes_and_needs.pdf">Interview_wishes_and_needs.pdf</a>. The consequence of this is that the system does not work properly. <Strong>Due to these issues the work process gets halted, which gives users a bad experience.</Strong>
+                            </p>
+                        </div>
+                        <div class="inner">
+                            <h1 id="tools" class="mainheader">Side project</h1>
                             <p class="animated delay-first fade-right maintext">
                                 After doing the research, we found out that there wasn't a big problem but there are a lot of little things that the user doesn't like, for example that everything is written in English and when a user wants to take a picture the resolution isn't correct, there are couple more points for improvement, see <a target="_blank" href="Interview_wishes_and_needs.pdf">Interview_wishes_and_needs.pdf</a>. The consequence of this is that the system does not work properly. <Strong>Due to these issues the work process gets halted, which gives users a bad experience.</Strong>
                             </p>
